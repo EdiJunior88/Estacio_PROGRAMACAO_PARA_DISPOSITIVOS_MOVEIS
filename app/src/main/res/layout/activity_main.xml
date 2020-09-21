@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Principal"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000080"
+        android:textSize="18sp"
+        android:layout_marginBottom="20sp"/>
+
+    <CheckBox
+        android:id="@+id/ckbCinema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_cinema"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/ckbFutebol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_futebol"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/ckbGastronomia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_gastronomia"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/ckbInformatica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_informatica"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/ckbLiteratura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_literatura"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/ckbTeatro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_teatro"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp">
+
+        <Button
+            android:id="@+id/btnExibir"
+            android:text="@string/btn_exibir"
+            android:layout_width="wrap_content"
+            android:width="120sp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnDesmarcar"
+            android:text="@string/btn_desmarcar"
+            android:layout_width="wrap_content"
+            android:width="120sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_selecionados"/>
+
+</LinearLayout>
