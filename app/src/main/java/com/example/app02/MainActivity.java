@@ -79,3 +79,4 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Toast.makeText(this, "Os dados foram apagados com sucesso!", Toast.LENGTH_LONG).show();
         }
     }
+}
