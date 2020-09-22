@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horixontal_margin"
+    android:paddingRight="@dimen/activity_horixontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/txt_questao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textSize="24sp"
+        android:textColor="#0000FF"/>
+
+    <RadioGroup
+        android:id="@+id/rdgAlter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdbA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb_a"
+            android:textSize="22sp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rdbB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb_b"
+            android:textSize="22sp"/>
+
+        <RadioButton
+            android:id="@+id/rdbC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb_c"
+            android:textSize="22sp"/>
+
+        <RadioButton
+            android:id="@+id/rdbD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb_d"
+            android:textSize="22sp"/>
+
+        <RadioButton
+            android:id="@+id/rdbE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb_e"
+            android:textSize="22sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ok"
+        android:layout_marginTop="20sp"
+        android:textSize="22sp"/>
+
+</LinearLayout>

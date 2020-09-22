@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="txt_questao">Quem Descobriu o Brasil?</string>
+    <string name="rdb_a">Américo Vespúcio</string>
+    <string name="rdb_b">Cristóvão Colombo</string>
+    <string name="rdb_c">Dom Pedro II</string>
+    <string name="rdb_d">Marco Polo</string>
+    <string name="rdb_e">Pedro Álvares Cabral</string>
+    <string name="btn_ok">OK</string>
+    <string name="action_settings">Configurações</string>
+</resources>
